@@ -68,25 +68,23 @@ function Contact() {
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-8">
         {/* Left Side */}
         <div className="space-y-6">
-          <h2 className="text-4xl">Let's talk</h2>
+          <h2 className="text-4xl">Contact Me</h2>
           <p className="text-gray-300">
-            I'm currently available to take on new projects, so feel free to
-            send me a message about anything you want me to work on. You can
-            contact me anytime.
+          As a dedicated full-stack developer, I thrive on creating innovative solutions tailored to your unique needs. Let's connect to discuss how I can bring your ideas to life or assist with your development goals.
           </p>
 
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
               <img src={mail_icon} alt="Email" className="w-6 h-6" />
-              <span className="text-gray-300">greatstackdev@gmail.com</span>
+              <span className="text-gray-300">dilrukshitha.online@gmail.com</span>
             </div>
             <div className="flex items-center space-x-4">
               <img src={call_icon} alt="Phone" className="w-6 h-6" />
-              <span className="text-gray-300">+772-825-524</span>
+              <span className="text-gray-300">+94 77 507 4031</span>
             </div>
             <div className="flex items-center space-x-4">
               <img src={location_icon} alt="Location" className="w-6 h-6" />
-              <span className="text-gray-300">CA, United States</span>
+              <span className="text-gray-300">Kandy, Sri Lanka</span>
             </div>
           </div>
         </div>
@@ -159,7 +157,7 @@ function Contact() {
             type="submit"
             className="bg-gradient-to-r from-teal-600 via-blue-700 to-purple-700 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl hover:opacity-90 border border-[#161513] hover:border-white transition-all duration-[30ms] transform hover:scale-105"
           >
-            Submit now
+            Send Message
           </button>
         </form>
       </div>

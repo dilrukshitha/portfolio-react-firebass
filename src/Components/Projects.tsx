@@ -33,14 +33,15 @@ function Projects() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600 text-gray-100 hover:text-white border border-gray-950 hover:border-white px-4 py-2 rounded-lg shadow-md hover:shadow-lg hover:opacity-95 transition-transform transform duration-0"
+                onClick={(e) => e.preventDefault()} // Prevents routing or action
+                className="bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600 text-gray-100 border-gray-950 px-4 py-2 rounded-lg shadow-md transition-transform transform duration-0 cursor-not-allowed opacity-50"
               >
                 Live Demo
               </a>
 
               {/* GitHub Link Button */}
               <a
-                href="#"
+                href={work.w_gitLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-700 text-gray-100 hover:text-white border border-gray-950 hover:border-white px-4 py-2 rounded-lg shadow-md hover:shadow-lg hover:opacity-95 transition-transform transform duration-0"

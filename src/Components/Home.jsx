@@ -1,29 +1,40 @@
 import React from "react";
-import profilePic from "../assets/about_profile.svg"; // Replace with your actual profile picture
+import profilePic from "../assets/about_profile.jpg"; // Replace with your actual profile picture
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Home({ navbarHeight }) {
   return (
     <section id="Home" className="px-7 mx-auto py-12">
       {/* Header Section */}
-      <header className="text-center max-w-3xl mx-auto">
+      <header className="text-center max-w-5xl mx-auto pb-3">
         <h2 className="text-4xl font-bold tracking-wide leading-snug">
           Hi, I’m{" "}
           <span className="bg-gradient-to-r from-teal-400 via-cyan-500 to-violet-500 bg-clip-text text-transparent">
-            Alex Bennett
+            Dilrukshitha Heenkenda
           </span>
-          , <br />a passionate frontend developer from{" "}
+          , <br /> a passionate full-stack web developer from{" "}
           <span className="bg-gradient-to-r from-teal-400 via-cyan-500 to-violet-500 bg-clip-text text-transparent">
-            California, USA
+            Kandy, Sri Lanka
           </span>
           .
         </h2>
         <p className="text-gray-300 mt-6 text-lg leading-relaxed">
-          With over a decade of experience in frontend development, I’ve
-          collaborated with industry leaders like Microsoft, Tesla, and Apple to
-          deliver innovative web solutions. My passion for crafting seamless,
-          visually appealing user interfaces drives me to approach every project
-          with dedication and enthusiasm.
+          With 2 years of experience, I specialize in developing and delivering
+          innovative web solutions using modern technologies like React,
+          Next.js, Node.js, and Firebase.
+        </p>
+        <p className="text-gray-300 mt-4 text-lg leading-relaxed">
+          My expertise lies in creating scalable, user-focused applications,
+          perfectly tailored to meet your unique needs and requirements.
+        </p>
+        <p className="text-gray-300 mt-4 text-lg leading-relaxed">
+          Currently, I am diving into the exciting fields of machine learning
+          and data science to broaden my skill set and bring even greater value
+          to my projects.
+        </p>
+        <p className="text-gray-300 mt-4 text-lg leading-relaxed">
+          Let’s collaborate to transform your ideas into impactful digital
+          solutions!
         </p>
       </header>
 
@@ -41,13 +52,16 @@ function Home({ navbarHeight }) {
         {/* Skills Section */}
         <article className="flex-1 space-y-6">
           {[
-            { skill: "HTML & CSS", width: "80%" },
-            { skill: "React JS", width: "90%" },
-            { skill: "JavaScript", width: "85%" },
-            { skill: "Next JS", width: "75%" },
+            { skill: "HTML, CSS and Javascript", width: "95%" },
+            { skill: "React JS", width: "85%" },
+            { skill: "Next JS", width: "80%" },
+            { skill: "Node.js", width: "90%" },
+            { skill: "Firebass", width: "50%" },
+            { skill: "CI/CD", width: "50%" },
+            { skill: "Machine Learning & Data Science", width: "10%" },
           ].map(({ skill, width }, index) => (
             <div key={index} className="space-y-2">
-              <p className="text-sm font-semibold">{skill}</p>
+              <p className="text-base">{skill}</p>
               <div className="w-full bg-gray-800 rounded-full h-3 overflow-hidden border border-orange-900">
                 <div
                   className="h-full bg-gradient-to-r from-teal-400 via-cyan-500 to-violet-500"
@@ -66,12 +80,12 @@ function Home({ navbarHeight }) {
       <section className="flex flex-col items-center gap-6 text-center">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-6 sm:gap-x-12">
           {[
-            { label: "YEARS OF EXPERIENCE", value: "10+" },
-            { label: "PROJECTS COMPLETED", value: "90+" },
-            { label: "HAPPY CLIENTS", value: "15+" },
+            { label: "YEARS OF EXPERIENCE", value: "2+" },
+            { label: "PROJECTS COMPLETED", value: "4+" },
+            { label: "HAPPY CLIENTS", value: "- - -" },
           ].map(({ label, value }, index) => (
             <article key={index} className="flex flex-col items-center">
-              <p className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-500 to-violet-500">
+              <p className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-500 to-violet-500">
                 {value}
               </p>
               <div className="w-full h-[2px] bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 mt-2"></div>
@@ -87,7 +101,7 @@ function Home({ navbarHeight }) {
       <div className="flex flex-wrap justify-center items-center gap-6 mt-10">
         <AnchorLink href="#Contact" offset={navbarHeight}>
           <button className="bg-gradient-to-r from-teal-600 via-blue-700 to-purple-700 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:opacity-90 transition-transform transform hover:scale-105">
-            Connect With Me{" "}
+            Connect With Me
           </button>
         </AnchorLink>
 

@@ -1,41 +1,29 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import project1_img from '../assets/project_1.png'
+import project2_img from '../assets/project_2.png'
+import project3_img from '../assets/project_3.png'
+import project4_img from '../assets/project_4.png'
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Web design Description essays should describe something vividly to the reader using strong sensory details.",
-        w_img:project1_img
+        w_name:"Full-stack-Spotify-Clone-react-nodejs-mongodb",
+        w_img:project1_img,
+        w_gitLink : "https://github.com/dilrukshitha/Spotify-Clone.git"
     },
     {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_name:"blog-app-nextjs-fullstack",
+        w_img:project2_img,
+        w_gitLink : "https://github.com/dilrukshitha/blog-app-nextjs-fullstack.git"
     },
     {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"Full-Stack-Netflix-Clone-using-ReactJS-Firebase",
+        w_img:project3_img,
+        w_gitLink : "https://github.com/dilrukshitha/Full-Stack-Netflix-Clone-using-React-JS-_-Firebase.git"
     },
     {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
-    },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
+        w_name:"portfolio-react-firebass",
+        w_img:project4_img,
+        w_gitLink : "https://github.com/dilrukshitha/portfolio-react-firebass.git"
+    }
 ]
  
 export default mywork_data;
