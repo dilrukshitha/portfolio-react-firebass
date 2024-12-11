@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Navbar({ setNavbarHeight, navbarHeight }) {
